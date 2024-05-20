@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-body {
+/* body {
 	background-color: #f6f6f6;
 }
 
@@ -47,7 +47,7 @@ body {
 		font-size: 1em;
 	}
 }
-
+/*
 #addition-info {
 	width: 100%;
 	display: flex;
@@ -55,7 +55,6 @@ body {
 	justify-content: center;
 	align-items: center;
 	h3 {
-		/* border: 2px solid red; */
 		color: #1a77f2;
 		font-size: 1.3em;
 	}
@@ -64,10 +63,84 @@ body {
 		width: 90%;
 	}
 	#create-btn {
-	/* border: 2px solid red; */
 	margin-top: 5px;
 	background-color: #43b72a;
 	width: 50%;
 	font-size: 1em;
 }
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.facebook-logo h1 {
+    color: #1877f2;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.login-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.login-box p {
+    font-size: 18px;
+    color: #1c1e21;
+    margin-bottom: 20px;
+}
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-box input {
+    padding: 14px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+}
+
+.login-box button {
+    padding: 14px;
+    font-size: 16px;
+    color: white;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.login-box .create-account {
+    background-color: #42b72a;
+}
+
+.login-box a {
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #dddfe2;
+    margin: 20px 0;
 }
