@@ -8,16 +8,19 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	#info {
+}
+
+#container .left {
 	font-size: 1.5em;
 	color: #1a77f2;
-	}
-	
-	#info p {
+}
+
+#container .left p {
 		font-size: 0.9em;
 		color: #151515;
 	}
-}
+
+
 #card {
 	border-radius: 4px;
 	/* padding: 10px; */
